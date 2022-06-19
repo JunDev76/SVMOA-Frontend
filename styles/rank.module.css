@@ -1,0 +1,233 @@
+.rank {
+    width: 72%;
+}
+
+.rankHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ct {
+    display: flex;
+}
+
+.server {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    /*border: 1px solid #D8D8D8;*/
+    padding: 10px 12px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px 0, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+}
+
+.serverDown{
+    margin-top: 2px;
+    position: relative;
+}
+
+.stars {
+    top: 8px;
+    position: absolute;
+    text-align: center;
+    right: 20px;
+}
+
+.stars > span {
+    position: relative;
+    top: -6px;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.tags {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.tag {
+    margin-bottom: 8px;
+}
+
+.serverHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serverName {
+    font-size: 1.3rem;
+    color: black;
+    position: relative;
+    left: 6px
+}
+
+.serverOn {
+    font-size: 1.3rem;
+    color: #36C64D;
+}
+
+.serverOff {
+    font-size: 1.3rem;
+    color: red;
+}
+
+.serverDomain {
+    border-radius: 4px;
+    color: #4F4F4F;
+    padding: 2px 6px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    position: relative;
+    transform: translate(0, -3px);
+}
+
+.onlinePlayer {
+    position: absolute;
+    font-size: 1.1rem;
+    top: 86px;
+    transform: translate(0, 5px);
+}
+
+.copyAndPlay {
+    position: absolute;
+    right: 10px;
+}
+
+.copyAndPlay i {
+    margin-left: 10px;
+}
+
+.onlinePlayer i {
+    font-size: 1.9rem;
+}
+
+.serverBanner img {
+    margin-top: 76px;
+}
+
+.be {
+    background-color: #36C64D;
+    color: white;
+    padding: 5px 18px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+
+.rankBadge {
+    position: relative;
+}
+
+.rankBadge span{
+    position: absolute;
+}
+
+.rankBadge img {
+    width: 100%;
+}
+
+.rankBadgeImgSt {
+    margin: 0 auto;
+    width: 8%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.rankBadgeTextSt {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.rankBadgeTextSt i {
+    color: #183153;
+    font-size: 1.2rem;
+}
+
+.register_server {
+    position: relative;
+    top: -1px;
+    cursor: pointer;
+}
+
+.rightp *{
+    margin-left: 10px;
+}
+
+.rightp button{
+    transform: translate(0, 4px);
+}
+
+.stars {
+    position: static;
+    margin-top: 2px;
+}
+
+.starsStar {
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.onlinePlayer {
+    width: 50%;
+    float: left;
+    position: static;
+}
+
+.serverBanner img {
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 917px) {
+    .rankBadgeTextSt {
+        text-align: center;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 916px) {
+    .ct {
+        display: block !important;
+    }
+
+    .rank {
+        width: 100%;
+    }
+
+    .server > * {
+        zoom: 0.9;
+    }
+
+    .stars {
+        position: static;
+        margin-top: 2px;
+    }
+
+    .starsStar {
+        width: 50%;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .onlinePlayer {
+        width: 50%;
+        float: left;
+        position: static;
+    }
+
+    .serverBanner img {
+        margin-top: 10px;
+    }
+}

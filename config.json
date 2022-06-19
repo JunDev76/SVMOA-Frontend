@@ -1,0 +1,9 @@
+{
+  "apiserver": "http://localhost:3001/query",
+  "auth": {
+    "google": {
+      "clientid": "133127489029-0o57nc3pfao6uo5f2nmhnjeaemvc7ica.apps.googleusercontent.com",
+      "secret": "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"
+    }
+  }
+}

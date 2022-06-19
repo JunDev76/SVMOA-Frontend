@@ -1,0 +1,66 @@
+.nav {
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+    height: 65px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.nav > div {
+    max-width: 1220px;
+    width: auto;
+    margin: 0 auto;
+
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.nav > div > div {
+}
+
+.nav > div > div > div {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+
+}
+
+.alignLeft {
+}
+
+.alignRight {
+}
+
+/*
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.container{
+    width: 1260px; !* 1320px 로고 공백 계산. *!
+    margin: 0 auto;
+}
+
+.menus{
+    font-size: 20px;
+    text-align: center;
+    line-height: 0;
+    text-decoration: none;
+    transform: translate(20%, 2px);
+}
+
+.dropdown a{
+    line-height: 24px;
+}
+
+.bold{
+    font-weight: bold;
+}*/

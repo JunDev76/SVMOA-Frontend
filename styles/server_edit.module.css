@@ -1,0 +1,43 @@
+.input_div{
+    width: 60%;
+    margin: 30px auto 0 auto;
+    background-color: white;
+    padding: 30px 50px;
+}
+
+.title{
+    font-size: 1.1rem;
+    margin-left: 2px;
+}
+
+.d{
+    margin: 25px 0 -0rem 10px;
+    position: relative;
+}
+
+.d span{
+    color: grey;
+    line-height: 1rem;
+    font-size: 0.9rem;
+    position: relative;
+    top: -1.5rem;
+}
+
+.submit{
+    width: 100%;
+}
+
+.img{
+    text-align: center;
+}
+
+.img img{
+    width: 348px;
+    height: 60px;
+}
+
+@media screen and (max-width: 804px) {
+    .input_div{
+        width: 100%;
+    }
+}
